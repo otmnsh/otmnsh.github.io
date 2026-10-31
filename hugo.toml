@@ -29,8 +29,8 @@ summaryLength = 40
 
 [params]
   env = "production"
-  description = "bookworm"
-  author = "Tobias Kestrel"
+  description = "A book nerd's blog: ideas worth sharing from the books I read."
+  author = "Otmane Echaibi"
   images = ["images/profile.png"]   # default image for link previews
   defaultTheme = "auto"
   ShowReadingTime = true
@@ -54,21 +54,21 @@ summaryLength = 40
     apple_touch_icon = "apple-touch-icon.png"
     safari_pinned_tab = "favicon-32x32.png"
 
-  # Front page: just the one line, plus two doors.
+  # Front page: a short intro, plus two doors.
   [params.profileMode]
     enabled = true
-    title = "systems hacker"
-    subtitle = ""
+    title = "Book nerd. Reader. Writer."
+    subtitle = "Books are my best friends. I read them, write about them, and share the ideas worth passing on."
     imageUrl = "images/profile.png"
-    imageTitle = "Tobias Kestrel"
+    imageTitle = "Otmane Echaibi"
     imageWidth = 160
     imageHeight = 160
 
     [[params.profileMode.buttons]]
-      name = "Posts"
+      name = "Read the posts"
       url = "posts/"
     [[params.profileMode.buttons]]
-      name = "About"
+      name = "About me"
       url = "about/"
 
   [params.fuseOpts]
