@@ -1,32 +1,28 @@
 +++
 title = "About"
-description = "Otmane Echaibi, a book nerd who reads, writes about books, and shares the ideas that changed how he sees the world."
+description = "Otmane Echaibi, an amateur mathematician from Morocco who rebuilds mathematical ideas from the question that started them."
 hidemeta = true
 showtoc = false
 +++
 
-I'm **Otmane Echaibi**, and I'm a book nerd. Books are my best friends.
+I'm **Otmane Echaibi**, I'm 30, I live in Morocco, and I do mathematics for fun. Nobody pays me for it and nobody grades it, which turns out to be the best way to do it.
 
-They keep me company on quiet mornings and late nights. They argue with me, surprise me, and tell me, in a voice that has waited decades or centuries to be heard, that I'm not the first person to wonder about all this. Some of them made me braver. Some of them made me humbler. A few of them rearranged how I think.
+I went through the Moroccan system: the classes préparatoires (CPGE), then university lectures. A theorem arrived as a definition, then a lemma, then a proof, and the question that made anyone care never showed up. I learned to pass the exams. Somewhere along the way I nearly forgot that people once found this stuff thrilling, and I think that forgetting happens to a lot of talented people. This blog is my attempt to undo it, for myself first.
 
-## Why this blog exists
+## How a post works
 
-A good book shouldn't stay on one person's shelf. When an idea stops me mid-page, I want to put it in front of somebody else.
+Each post takes one idea from mathematics, usually from an article that is correct and almost unreadable, and rebuilds it the way it was found. There is a question, a few wrong guesses, a dead end, and then the idea shows up as the thing that repairs the damage. You will be asked to predict things. You will often be wrong. That is on purpose, because being wrong in a specific way is how an idea becomes yours.
 
-So I read, and then I write. Each post here takes one book and keeps only the ideas worth sharing: the ones that survived the highlighter, the margin notes and a few days of thinking it over. I'm not after a summary that replaces the book. I want a good reason for you to open it, or a fresh idea to carry around if you never do.
+## What you need
 
-## What you'll find here
-
-- **Ideas, not just reviews.** Psychology, creativity, careers, human nature, and whatever else a good book drags me into.
-- **Plain language.** No jargon walls. If a concept changed how I think, I'll try to explain it the way I'd tell a friend.
-- **Honest takes.** I'll tell you what a book gets right, and where I'm not convinced.
+A high school education, and it does not matter if you were bored by it. Every symbol is explained in words before it is used, and every technical term appears only after its meaning has done some work. When I give intuition instead of a proof, I say so. When I leave something out, I say that too.
 
 ## What I believe
 
-Reading is one of the few things that makes you bigger without making anyone else smaller. One book can change a decision, a habit, even a direction in life, and almost anyone can pick one up. That's worth being loud about.
+Mathematics is something you do, closer to music or chess than to a list of procedures. Talent in it is common and easily discouraged. I want this to be the most accessible math blog I can make, and I would rather lose a reader to a hard idea explained slowly than to an easy one explained badly.
 
-If you love books, you're already in good company. Stay as long as you like, borrow what's useful, and tell me what to read next.
+I am an amateur, and I will sometimes be wrong. If you catch me, tell me.
 
 ## Say hello
 
-Book recommendations, corrections, questions and friendly arguments are all welcome on the [contact page](/contact/).
+Topic suggestions, corrections, questions and friendly arguments are all welcome on the [contact page](/contact/).

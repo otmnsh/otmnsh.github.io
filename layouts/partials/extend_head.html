@@ -1,7 +1,12 @@
-<link rel="manifest" href="{{ "site.webmanifest" | absURL }}">
-<meta name="theme-color" content="#1a5fb4">
-<link rel="stylesheet" href="{{ "katex/katex.min.css" | absURL }}">
-<style>
-  .katex-display { overflow-x: auto; overflow-y: hidden; padding: 2px 0; }
-  .post-content .katex { font-size: 1.08em; }
-</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.body, {
+    delimiters: [
+      {left: '$$', right: '$$', display: true},
+      {left: '\\[', right: '\\]', display: true},
+      {left: '$', right: '$', display: false},
+      {left: '\\(', right: '\\)', display: false}
+    ],
+    throwOnError: false
+  });"></script>

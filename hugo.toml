@@ -24,12 +24,15 @@ summaryLength = 40
       block = [['\[', '\]'], ['$$', '$$']]
       inline = [['\(', '\)'], ['$', '$']]
 
+# The post front matter uses categories and concepts as well as tags.
 [taxonomies]
+  category = "categories"
   tag = "tags"
+  concept = "concepts"
 
 [params]
   env = "production"
-  description = "A book nerd's blog: ideas worth sharing from the books I read."
+  description = "Mathematics rebuilt from the question that started it, by an amateur who found school math dry."
   author = "Otmane Echaibi"
   images = ["images/profile.png"]   # default image for link previews
   defaultTheme = "auto"
@@ -37,9 +40,9 @@ summaryLength = 40
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
+  ShowCodeCopyButtons = false
   ShowWordCount = true
-  ShowToc = true
+  ShowToc = false                   # matches toc = false in every post
   TocOpen = false
   ShowFullTextinRSS = true          # readers get the whole post in their feed reader
   ShowRssButtonInSectionTermList = true
@@ -47,7 +50,7 @@ summaryLength = 40
   DateFormat = "January 2, 2006"
 
   [params.assets]
-    disableHLJS = true              # code is highlighted at build time (Chroma), so skip the JS
+    disableHLJS = true
     favicon = "favicon.ico"
     favicon16x16 = "favicon-16x16.png"
     favicon32x32 = "favicon-32x32.png"
@@ -57,8 +60,8 @@ summaryLength = 40
   # Front page: a short intro, plus two doors.
   [params.profileMode]
     enabled = true
-    title = "Book nerd. Reader. Writer."
-    subtitle = "Books are my best friends. I read them, write about them, and share the ideas worth passing on."
+    title = "Amateur mathematician."
+    subtitle = "Mathematics the way it was discovered: a question, some wrong guesses, then the idea. No prior knowledge needed."
     imageUrl = "images/profile.png"
     imageTitle = "Otmane Echaibi"
     imageWidth = 160
@@ -87,10 +90,20 @@ summaryLength = 40
     url = "/posts/"
     weight = 10
   [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 20
+  [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
     weight = 30
+  [[menu.main]]
+    identifier = "index"
+    name = "Index"
+    url = "/concepts/"
+    weight = 35
   [[menu.main]]
     identifier = "search"
     name = "Search"
