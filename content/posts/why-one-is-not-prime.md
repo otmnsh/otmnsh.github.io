@@ -3,83 +3,71 @@ title = "Why 1 Is Not Prime"
 date = 2026-11-02T12:15:34+00:00
 draft = false
 slug = "why-one-is-not-prime"
-description = "The textbook definition of a prime lets 1 in. Twelve shows what breaks if we allow it, and why the door was shut on purpose."
-summary = "A student follows the textbook definition of a prime and concludes that 1 qualifies. Factoring 12 shows what that choice would cost, and why mathematicians made the opposite choice on purpose."
+description = "The sentence that defines a prime lets 1 in. Twelve shows what the opposite choice would cost, and why 1 is kept out by convention."
+summary = "The textbook sentence that defines a prime number admits 1, yet mathematicians exclude it by convention. Factorising 12 shows what would happen if they did not, and the empty product shows where 1 really belongs."
 categories = ["Number theory"]
-tags = ["primes", "factorization", "definitions", "foundations"]
-concepts = ["prime number", "unique factorization", "multiplicative identity", "empty product"]
+tags = ["primes", "factorisation", "definitions", "foundations"]
+concepts = ["prime number", "multiplicative identity", "empty product", "convention"]
 +++
 
-A student writes "yes" next to the question "Is 1 prime?" and the mark is taken away. At home she opens the textbook and reads the definition twice: a prime is a number whose only divisors are 1 and itself.
+You open your maths book at the definition of a prime number: a number whose only divisors are 1 and itself. Then you test the number 1. Its only divisor is 1, which is also itself, so by the sentence you have just read, 1 qualifies.
 
-Her number is 1. It has exactly one divisor, which is 1, and which is also itself. Applied as written, the rule lets her answer through.
+It does not. Mathematicians treat 1 as not prime by convention, which means a choice was made and not a fact discovered. I will not pretend to tell you why the choice went the way it did. What I can do is show you what the opposite choice would cost, using ten minutes and the number 12.
 
-The textbook sentence is missing something, and you can find out what by spending ten minutes with the number 12.
+## What 1 does
+
+First, a small guess. What is $1^{50}$, the number 1 multiplied by itself fifty times?
+
+It is 1. Multiplying by 1 leaves any number exactly as it was, so a chain of fifty of them changes nothing fifty times over. This is why 1 is called the multiplicative identity, and it holds for whole numbers and for the stranger kinds of number alike. Every power of 1, and its square root, is simply 1 again.
+
+Keep that property in your pocket. It is about to cause trouble.
 
 ## Twelve, broken up
 
-Take 12 and write it as a product of smaller numbers, then keep going until no piece can be split. One route: $12 = 3 \times 4$, then $4 = 2 \times 2$, which leaves $3 \times 2 \times 2$. Another route: $12 = 2 \times 6$, then $6 = 2 \times 3$, which leaves $2 \times 2 \times 3$.
+Take 12 and write it as a product of smaller numbers, then keep going until no piece can be split further. One route: $12 = 3 \times 4$, and $4 = 2 \times 2$, which leaves $3 \times 2 \times 2$. Another route: $12 = 2 \times 6$, and $6 = 2 \times 3$, which leaves $2 \times 2 \times 3$.
 
-The routes differ. The leftovers do not: two 2s and one 3, in a different order. Call a collection of pieces like this a bag. The pieces that cannot be split any further are the primes, the numbers 2, 3, 5, 7, 11 and their relatives.
+The routes differ and the leftovers do not. Two 2s and one 3, in either order. The pieces that cannot be split any further are the primes, and so far we have met 2 and 3.
 
-Before reading on, commit to a number. If you tried every possible route through 12, how many different bags could you end up with?
+Try a bigger number. $60 = 6 \times 10 = 2 \times 3 \times 2 \times 5$, and also $60 = 4 \times 15 = 2 \times 2 \times 3 \times 5$. Different routes, the same pieces: two 2s, a 3 and a 5. I have not proved that this happens for every number, and I will not claim it. In the two examples I tried, it does.
 
-One. It is always the same bag.
+Now let the textbook sentence win and allow 1 to count as a prime. Before you read on, commit to a guess: how many different lists of primes can you now find whose product is 12?
 
-Try a bigger number to see whether that was luck. $60 = 6 \times 10 = 2 \times 3 \times 2 \times 5$, and also $60 = 4 \times 15 = 2 \times 2 \times 3 \times 5$. Two routes, one bag: two 2s, one 3, one 5.
-
-This holds for every whole number bigger than 1, and it is the central fact about primes. Stated once, properly: every whole number $n > 1$ is a product of primes, and any two ways of writing $n$ as such a product use the same primes the same number of times. The proof takes a page or two in a number theory course, and I am leaving it out. What matters here is what the fact gives you. A bag works as a fingerprint. Multiply a bag and you recover the number; take the number and exactly one bag comes back.
-
-## The student's version
-
-Now do what the student did and accept 1 as a prime. A bag is any collection of primes whose product is the number, so 1 is allowed in.
-
-The old bag for 12 is still fine: $2 \times 2 \times 3 = 12$. But look at $1 \times 2 \times 2 \times 3$. Every piece is prime under the student's rule, and the product is still 12. So is $1 \times 1 \times 2 \times 2 \times 3$.
-
-Guess again. How many bags does 12 have now?
-
-Infinitely many.
-
-Multiplying by 1 changes nothing, so you can slip in as many 1s as you like, anywhere, for free. Add none or add a million: the number stays 12 and the bag stays legal. The fingerprint has stopped being a fingerprint, because one number now owns a whole crowd of different bags.
+There is no limit. The list $2 \times 2 \times 3$ still works. So does $1 \times 2 \times 2 \times 3$, and every piece in it is prime under the new rule. So does $1 \times 1 \times 2 \times 2 \times 3$, and the one with ten 1s, and the one with a million.
 
 {{< figure src="/img/why-one-is-not-prime-1.png" alt="Three horizontal rows of square boxes, each row multiplying to 12. The top row holds the boxes 2, 2, 3. The middle row holds 1, 2, 2, 3. The bottom row holds 1, 1, 2, 2, 3. The boxes labelled 1 are shaded a different colour from the others, so the eye sees the same core 2, 2, 3 repeated in every row with extra shaded boxes added on the left. To the right of each row the text reads: product is 12." >}}
 
-Ordinary questions go sour. How many prime factors does 12 have? With the 1s allowed there is no answer, because any number from three upward is as correct as any other.
+Multiplying by 1 changes nothing, so a 1 can be slipped into a product anywhere, any number of times, and the number stays 12. A simple question goes sour: how many prime pieces does 12 have? With 1 allowed, any count from three upwards is as correct as any other.
 
-## Two ways out
+## A choice, not a law
 
-There are two repairs, and both work.
+Nothing in the arithmetic forbids calling 1 prime. The sentence in the textbook allows it, and the calculation above is perfectly valid. The exclusion is a convention, a decision people took, and 12 shows the price of the other decision: the same list of pieces, every time, would be lost, and with it the tidy answer to 'what is 12 made of?'
 
-The first keeps 1 as a prime and rewrites the theorem: every number has one bag, once you throw away the 1s. Then every later statement about primes needs a footnote, "other than 1", and the footnote follows primes everywhere they go.
+I find that more interesting than a law would be. A law gives you nothing to argue with. A choice has a cost you can compute, and then you can decide for yourself if you would have paid it.
 
-The second repair spends its effort once, in the definition. A prime is a whole number bigger than 1 whose only divisors are 1 and itself. In plain words, it is the textbook sentence with a bouncer at the door.
+## Multiplying nothing
 
-Mathematicians took the second. Nothing in the numbers forced the choice, and I would rather you hear that from me than discover it later and feel tricked. The first repair is logically fine. It is just clumsy, and a definition is allowed to be chosen for the reason that it makes the theorems short.
+There is a better home for 1, and it comes from asking what you get when you multiply no numbers at all. Guess first.
 
-Choices like this get revisited. In Giuseppe Peano's original axioms for the counting numbers, the count began at 1. He later revised them so that it began at 0.
+The answer is 1. Here is the reasoning. Build a product with a running total, multiplying in one piece at a time. After one piece, say 7, the total should be 7. But the total is the starting value times 7, and the only starting value that gives 7 is 1. An empty list of pieces multiplies nothing in, so the total stays at its starting value. This is called the empty product, and it equals 1.
 
-## The empty bag
+The same reasoning explains why $2^0 = 1$: zero copies of 2 multiplied together leave you where you began.
 
-There is a better answer to the student's question, and it comes from asking what the product of no numbers at all should be. Guess before you read the next line.
-
-The answer is 1.
-
-Here is why. Build a product by keeping a running total and multiplying in one piece at a time. After multiplying in a single piece, say 7, the total should be 7. But the total is the starting value times 7, and the only starting value that gives 7 is 1. An empty bag multiplies in nothing, so the total stays at its starting value, which is 1. It is the same reason $2^0 = 1$: zero copies of 2 multiplied together leave you where you began.
-
-Now go back to the number 1 and ask for its bag. Any nonempty bag of primes, as we now define them, holds pieces that are all at least 2, so it multiplies to at least 2. The only bag that multiplies to 1 is the empty one. So the theorem already covers the number 1, with a perfectly good and unique bag that holds nothing. The student asked whether 1 belongs inside the bags, and the bags have an answer ready: 1 is what you get when you put in nothing.
+Now ask what the prime pieces of 1 are. None. The factorisation of 1 is empty: nothing multiplied together. Under the convention, 1 needs no primes at all.
 
 ## Older doors
 
-Ancient philosophers had a different reason for keeping 1 apart. The Pythagoreans considered numbers to be plural, so a single unit did not count as a number at all. It was the place numbers came from. The Neopythagorean Nicomachus of Gerasa wrote the same, that one is the source of number and not a number itself.
+The Pythagoreans had a different reason for keeping 1 apart. They considered numbers to be plural, so a single unit did not count as a number. It was the place numbers came from. In their philosophy, odd numbers were male and even numbers female, and 1 was neutral because adding it turns even numbers into odd ones and odd ones into even: $4 + 1 = 5$ and $5 + 1 = 6$.
 
-Their reason was about what counting is, and bags did not enter into it. Whether they would have accepted the bag argument I cannot say.
+Test that against a different number. $4 + 3 = 7$, and $8 + 5 = 13$. Adding other odd numbers flips the camp too, so flipping alone does not seem to set 1 apart. I cannot say whether it was their only reason, and I would not want to put words in their mouths. Nicomachus of Gerasa, whose treatise reached Latin readers through Boethius, held that one is not a number but the source of number.
 
-## A bag that is not unique
+Where the list of natural numbers starts has been moved around as well. Giuseppe Peano's original axioms began the sequence at 1. He later revised them to begin at 0. In John von Neumann's construction, each number is the set of all the numbers before it, and 1 becomes the set containing only 0, written $1 = \{0\}$.
 
-The fingerprint property is a gift that the whole numbers happen to carry. Other number systems do not have it.
+## One stroke
 
-Build numbers out of whole numbers together with $\sqrt{-5}$, a number whose square is $-5$. In that system $6 = 2 \times 3$, and also $6 = (1 + \sqrt{-5})(1 - \sqrt{-5})$, since the second product is $1 - (-5) = 6$. None of the four pieces can be broken down any further. I checked this, and the check fits in a paragraph that I am leaving out.
+The mark you draw for 1 is a vertical stroke, and a single stroke is all a tally needs. The system that writes every natural number as a run of the same mark is called unary, and it is the simplest way to write them, although it is rarely used for counting because long runs are hard to read.
 
-Two different bags, and no stray 1 to blame. What would you want to change in a system like that to get the bag back?
+The shape itself has a path. The upright stroke for 1 can be traced back to the Brahmic script of ancient India, in the edicts of Ashoka around 250 BCE, and the shapes of that numeral system reached Europe through the Maghreb and Al-Andalus in the Middle Ages.
+
+Every natural number is built by adding 1 to the one before it, and that includes 1 itself: $0 + 1 = 1$. The step that builds the whole list is also a number on the list. Which came first, the number 1 or the act of adding one?
 
 Text licensed under CC BY-SA 4.0.

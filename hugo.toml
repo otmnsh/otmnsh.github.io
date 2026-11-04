@@ -1,5 +1,5 @@
 baseURL = "https://otmnsh.gitlab.io/blog/"   # <- set to your real Pages URL / custom domain
-locale = "en-us"
+locale = "en-gb"
 title = "Otmane Echaibi"
 theme = "PaperMod"
 
@@ -47,7 +47,7 @@ summaryLength = 40
   ShowFullTextinRSS = true          # readers get the whole post in their feed reader
   ShowRssButtonInSectionTermList = true
   disableSpecial1stPost = false
-  DateFormat = "January 2, 2006"
+  DateFormat = "2 January 2006"
 
   [params.assets]
     disableHLJS = true
