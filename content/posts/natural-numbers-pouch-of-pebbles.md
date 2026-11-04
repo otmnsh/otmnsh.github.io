@@ -22,8 +22,6 @@ Some sheep are still on the hill, exactly as many as there are pebbles left in y
 
 Nothing was counted. Each sheep was matched with one pebble, and the matching told you everything. Two collections that can be paired off completely, one object to one object with nothing left on either side, have the same size, and you can know that without knowing what the size is. Mathematicians call such a pairing a one-to-one correspondence. It also gives you a comparison for free: the collection that runs out first is the smaller one, and the one with leftovers is the larger.
 
-{{< figure src="/img/natural-numbers-pouch-of-pebbles-1.png" alt="A pen gate with five sheep walking through it, drawn in a row. Under each sheep a pebble is drawn, and a thin line joins each sheep to its own pebble. A sixth pebble sits alone at the end of the row with no line attached to it and no sheep above it." >}}
-
 ## A row of piles
 
 Suppose you want to carry an answer around without carrying the sheep. On a flat stone you lay out piles. First an empty spot, with no pebbles. Then a pile made by adding a single pebble to the empty spot. Then a pile made by adding a single pebble to that one, and so on along the stone for as long as you have patience.
@@ -33,8 +31,6 @@ Every pile after the first is built by one move: take the pile before it and add
 These piles are the natural numbers. The empty spot is named 0, the single pebble 1, and if $n$ stands for any pile on the stone, the pile right after it is named $n + 1$. Authors disagree about whether the empty spot counts as a natural number. The international standard for mathematical notation includes it, and so does this post.
 
 Notice what the stone gives you. A pile tells you how many, and its spot on the stone tells you which place. A size and a position are the two jobs a number does, and here they are the same pebbles seen from two sides.
-
-{{< figure src="/img/natural-numbers-pouch-of-pebbles-2.png" alt="A flat stone seen from above carrying a row of pebble piles from left to right. The leftmost spot is empty and labelled 0. The next spot holds one pebble and is labelled 1, the next holds two pebbles and is labelled 2, and so on up to a pile of five. Between each pair of neighbouring piles a curved arrow points to the right and is labelled next." >}}
 
 ## Pouring
 

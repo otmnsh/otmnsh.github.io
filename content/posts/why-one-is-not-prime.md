@@ -34,8 +34,6 @@ Now let the textbook sentence win and allow 1 to count as a prime. Before you re
 
 There is no limit. The list $2 \times 2 \times 3$ still works. So does $1 \times 2 \times 2 \times 3$, and every piece in it is prime under the new rule. So does $1 \times 1 \times 2 \times 2 \times 3$, and the one with ten 1s, and the one with a million.
 
-{{< figure src="/img/why-one-is-not-prime-1.png" alt="Three horizontal rows of square boxes, each row multiplying to 12. The top row holds the boxes 2, 2, 3. The middle row holds 1, 2, 2, 3. The bottom row holds 1, 1, 2, 2, 3. The boxes labelled 1 are shaded a different colour from the others, so the eye sees the same core 2, 2, 3 repeated in every row with extra shaded boxes added on the left. To the right of each row the text reads: product is 12." >}}
-
 Multiplying by 1 changes nothing, so a 1 can be slipped into a product anywhere, any number of times, and the number stays 12. A simple question goes sour: how many prime pieces does 12 have? With 1 allowed, any count from three upwards is as correct as any other.
 
 ## A choice, not a law
